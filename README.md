@@ -1,4 +1,5 @@
 # RePo
+# We will supplement the complete code and its running scripts as soon as possible.
 This code implements the main algorithms and experiments from our AAAI 2026 paper "Region-Point Joint Representation for Effective Trajectory Similarity Learning".
 ## Require Packages
 All required packages and their versions are listed in requirements.txt.
