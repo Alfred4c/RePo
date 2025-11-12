@@ -9,13 +9,13 @@ Install them using the following command:
 
 ## Data
 
-Please download the datasets from the following sources:
+These publicly available datasets can be easily found and downloaded online by searching their official names:
 
 - **Porto Dataset**
 - **GeoLife Dataset**
 - **Chengdu Dataset**
 
-These publicly available datasets can be easily found and downloaded online by searching their official names.
+
 
 
 For all datasets, we retain trajectories with lengths between 10 and 300 points. Trajectory distance matrix is computed by traj_dist. 
