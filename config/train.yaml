@@ -1,0 +1,31 @@
+# train 2:1:7
+train_ratio: 0.2
+val_ratio: 0.1
+batch_size: 128
+epoch: 200
+warmup_lr: 1e-6
+min_lr: 1e-6
+warmup_epochs: 5
+cooldown_epochs: 0
+decay_rate: 0.1
+decay_epochs: 30
+dim: 512
+device: "cuda:0"
+best_model: 'exp/wts'
+learning_rate: 0.00002
+sim_alpha: 10
+early_stop_patience: 30
+max_seq_len: 300
+num_heads: 16 # dim // 32
+hidden_dim: 64
+scale: 5
+# loss τ
+temperature: 0.2
+# encoder layer
+num_layers: 1
+# ues cls token or not
+cls: 1
+hard_negative_topk: 1
+
+
+

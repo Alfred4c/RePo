@@ -1,0 +1,15 @@
+mbr:
+  min_lon: 116.254950
+  min_lat: 39.971610
+  max_lon: 116.402150
+  max_lat: 40.020540
+
+
+dataset_name: geolife
+file_path: 'data/geolife_traj.pkl'
+tiles_path: 'data/tiles/geolife'
+zoom: 18
+similarity_matrix_path: 'data/geolife_dis_matrix_hausdorff_10000.pkl'
+enriched_file_path: 'data/traj_geolife_new.pkl'
+grid_emb_path: 'data/geolife_grid_emb.pkl'
+graph_emb_path: 'data/geolife_graph_emb.pkl'

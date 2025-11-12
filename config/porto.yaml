@@ -1,0 +1,20 @@
+mbr:
+  min_lon: -8.69129
+  min_lat: 41.13835
+  max_lon: -8.55262
+  max_lat: 41.18594
+
+
+dataset_name: porto
+file_path: 'data/porto_traj.pkl'
+tiles_path: 'data/tiles/porto'
+zoom: 18
+# precompute
+similarity_matrix_path: 'data/porto_dis_matrix_hausdorff_10000.pkl'
+enriched_file_path: 'data/traj_porto_new.pkl'
+# embedding
+grid_emb_path: 'data/porto_grid_emb.pkl'
+graph_emb_path: 'data/porto_graph_emb.pkl'
+tile_path: 'data/porto_tiles.pkl'
+large_file_path : 'data/large_porto_20w.pkl'
+large_tile_path: 'data/porto_large_tiles.pkl'
