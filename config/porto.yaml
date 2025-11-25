@@ -11,7 +11,7 @@ tiles_path: 'data/tiles/porto'
 zoom: 18
 # precompute
 similarity_matrix_path: 'data/porto_dis_matrix_hausdorff_10000.pkl'
-enriched_file_path: 'data/traj_porto_new.pkl'
+enriched_file_path: 'data/porto_traj.pkl'
 # embedding
 grid_emb_path: 'data/porto_grid_emb.pkl'
 graph_emb_path: 'data/porto_graph_emb.pkl'

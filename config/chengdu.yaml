@@ -1,0 +1,14 @@
+mbr:
+  min_lon: 103.92
+  min_lat: 30.56
+  max_lon: 104.07
+  max_lat: 30.62
+
+dataset_name: chengdu
+file_path: 'data/chengdu_traj.pkl'
+tiles_path: 'data/tiles/chengdu'
+zoom: 18
+similarity_matrix_path: 'data/chengdu_dis_matrix_hausdorff_10000.pkl'
+enriched_file_path: 'data/traj_chengdu_new.pkl'
+grid_emb_path: 'data/chengdu_grid_emb.pkl'
+graph_emb_path: 'data/chengdu_graph_emb.pkl'

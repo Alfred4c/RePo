@@ -16,6 +16,7 @@ These publicly available datasets can be easily found and downloaded online by s
 - **GeoLife Dataset**
 - **Chengdu Dataset**
 
+The data folder contains data that has already been cleaned and augmented, with the original latitude and longitude information stored in the 7th and 8th dimensions, respectively.
 
 
 
