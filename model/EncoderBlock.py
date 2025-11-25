@@ -63,7 +63,7 @@ class EncoderBlock(nn.Module):
         fused = (
             w1 * cnn_out + w2 * adaptivegraph_out + w3 * cde_out
         )  # shape: (B, L, D) (Eq. 16 in paper)
-        kv = fused
+        kv = fused + gps_embs
         mask = (
             torch.arange(L, device=self.config["device"])[None, :]
             >= gps_length[:, None]
